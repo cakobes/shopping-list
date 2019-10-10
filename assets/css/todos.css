@@ -1,0 +1,90 @@
+
+  
+
+body{
+  
+    font-family: 'Roboto', sans-serif;
+  
+   height:100vh ; 
+   background-image: url("https://image.freepik.com/free-photo/black-friday-composition-with-four-bags-cart_23-2147709334.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+#container{
+    margin:auto;
+}
+h1{
+    background-image: url("https://images.unsplash.com/photo-1564724654412-d8701e45d337?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    text-transform: uppercase; 
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    font-weight: normal;
+    font-size: 150%;
+}
+.fa-plus{
+    float: right;
+}
+ul{
+    list-style:none ;
+    margin: 0;
+    padding: 0;
+}
+li{
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+li:nth-child(2n){
+    background-color: #f7f7f7;
+}
+span{
+    background-color: #1cb3c8; 
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    width: 0; ;
+    display: inline-block;
+    color: #fff;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
+input{
+    width: 100%;
+    background-color:  #f7f7f7;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color:#ffa900;
+    border: 3px solid rgb(0, 0, 0, 0);
+}
+input:focus{
+   border:  3px solid  #ffa900;
+   background-color: #fff;
+   outline: none;
+}
+#container{
+
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+    width: 500px;
+    margin: 80px auto;
+    background-color: #f7f7f7;
+    
+}
+.completed{
+    color:gray;
+    text-decoration: line-through;
+}
+
+@media only screen and (max-width: 550px) {
+   #container{
+       width: 300px;
+
+   } 
+}
